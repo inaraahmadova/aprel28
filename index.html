@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/mdb.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+        <div class="container">
+          <button
+            data-mdb-collapse-init
+            class="navbar-toggler"
+            type="button"
+            data-mdb-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand nav-studio" href="#"><b>STUDIO</b></a>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+            </ul>
+            <form class="d-flex input-group w-auto">
+              <input
+              id="searchbox"
+                type="search"
+                class="form-control input-search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button
+                data-mdb-ripple-init
+                class="btn btn-outline-primary btn-search"
+                type="button"
+                data-mdb-ripple-color="dark"
+              >
+                Sign in
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="intro">
+          <h1 id="intro-h">Unlimited movies, TV shows, and more</h1>
+        <h5 id="intro-h">Watch anywhere. Cancel anytime.</h5>
+        <p id="intro-p">
+          Ready to watch? Enter your email or mobile number to create or restart
+          your membership.
+        </p>
+          <button
+            type="button"
+            class="btn btn-secondary btn-lg bg-danger"
+            data-mdb-ripple-init
+            disabled
+          >
+            Button
+          </button>
+        </div>
+      </div>
+    </div>
+
+<div class="linear" style="width: 100%; height: 10px; background-color: rgb(31, 30, 30);"></div>
+
+    <div class="intro2">
+      <div class="intro2-left"><p id="intro2-p"><b>Enjoy on your TV</b></p> 
+        <p style="font-size: 24px;">Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p></div>
+        <div class="intro2-right">
+          <img src="assets/css/tv.png" alt="">
+        </div>
+    </div>
+    
+<div class="linear" style="width: 100%; height: 10px; background-color: rgb(31, 30, 30);"></div>
+
+<div class="intro3">
+  <div class="intro3-left"><img src="assets/css/mobile-0819.jpg" alt="">
+    </div>
+    <div class="intro3-right">
+      <p id="intro2-p"><b>Download your shows to watch offline</b></p> 
+    <p style="font-size: 24px;">WSave your favorites easily and always have something to watch.</p>
+    </div>
+</div>
+
+<div class="linear" style="width: 100%; height: 10px; background-color: rgb(31, 30, 30);"></div>
+
+    <div class="intro4">
+      <div class="intro2-left"><p id="intro2-p"><b>Watch everywhere</b></p> 
+        <p style="font-size: 24px;">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p></div>
+        <div class="intro2-right">
+          <img src="assets/css/device-pile.png" alt="">
+        </div>
+    </div>
+    <div class="linear" style="width: 100%; height: 10px; background-color: rgb(31, 30, 30);"></div>
+    <ul>
+      <li><a href="#">HOME</a></li>
+      <li><a href="#">ABOUT</a></li>
+      <li><a href="#">MOVIES</a></li>
+      <li><input type="text" placeholder="Search.." id="searchbox"></li>
+  </ul>
+  <select id="sortSelect" class="form-select" aria-label="Disabled select example" >
+    <option selected>IMDB Sıralamasi</option>
+    <option class="artan" value="artan">Artan sıa</option>
+    <option class="azalan" value="azalan">Azalan sıra</option>
+</select>
+<section id="films-container">
+  <div class="container">
+    <div class="row mt-4" id="films-area">
+      
+    </div>
+  </div>
+</section>
+
+
+
+<!-- 
+    <div class="container">
+      <div class="row  custom-container" id="cards-area"></div>
+    </div> -->
+    <script src="./assets/js/detail.js"></script>
+<script src="assets/js/mdb.umd.min.js"></script>
+    <script src="assets/js/mdb.es.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
